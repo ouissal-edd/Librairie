@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+ @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+ @import url(font-awesome.min.css);
+
+
+
+ body {
+    font-family: 'poppins', sans-serif;
+    font-weight: normal;
+    overflow-x: hidden;
+    
+}
+.abs{
+    background: #141012;
+    padding: 15px 0px;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.contant{
+text-align: center;
+width: 100%;
+}
+
+.titre_our  h2{
+    font-size: 40px;
+    color: #141012;
+    margin-top: 50px;    
+
+}
+.description p{
+    color: #141012;
+    font-size: 17px;
+    line-height:49px;
+
+}
+
+
+
+
+
+.btn{
+    width: 100%;
+}
+.contant .btn {
+    text-align: center;
+}
+
+
+.box_evnt{
+    width: 90%;
+    margin: 2% auto 0;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.bt,.bt2 ,.bt3,.bt4{
+    width: 200px;
+    font-size: 17px;
+    padding: 20px 0px;
+    background-color: #81256c;
+    color: #fff;
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    
+
+}
+.bt4:hover{
+    background-color: #000000;
+}
+.bt3:hover{
+    background-color: #000000;
+}
+.bt2:hover{
+    background-color: #000000;
+}
+.bt:hover{
+    background-color: #000000;
+}
+.btn2,.btn3 , .btn4{
+  
+    margin-right: 27px;
+}
+
+
+
+.event_lib img{
+    width: 100%;
+    height: 400px;
+}
+ .event_lib{
+    width: 600px;
+ }
+   
+
+.evnt{
+display: flex;
+flex-wrap: wrap;
+margin-left: 91px;
+margin-top: 30px;
+border: solid 1px#707070;
+width: 80%;
+
+
+}
+.event_description{
+    width: 500px;
+    
+}
+.event_description , h1{
+    font-size: 40px;
+    color: #B32137;
+    margin-left:8px ;
+}
+.event_description ,p{
+    color: #141012;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left:8px ;
+}
+.event_description ,h2{
+    font-size: 40px;
+    color: #141012;
+    margin-top: 1px;
+    margin-left:8px ;
+}
+
+
+ 
+    
