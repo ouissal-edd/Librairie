@@ -12,7 +12,8 @@ body {
     font-weight: normal;
     overflow-x: hidden;
 }
-.pub{margin-bottom: 30px;
+.pub{
+    margin-bottom: 30px;
 }
 .box_pub{
     background-color:#FFFFFF;
@@ -20,21 +21,14 @@ body {
     height: 734px;
    opacity: 72%;
    position: absolute;
-   align-items: center;
-   justify-content: center;
    
-
-}
-.cover img{
-    width: 100%;
-    height: 734px;
 }
 .box_description  {
     width: 100%;
     text-align: center;
     position: absolute;
     color: #141012;
-    position: absolute; 
+
 }
 .box_description h1 {
     font-size: 50px;
@@ -45,20 +39,20 @@ body {
     margin-top: 160px;
 }
 
-.bt5{
-    width: 200px;
-    font-size: 17px;
-    padding: 20px 0px;
-    background-color: #81256c;
-    color: #fff;
-    display: inline-block;
-    line-height: 20px;
-    border-radius: 30px;
-    text-align: center;
-    margin-top: 30px;
+.cover img{
+    width: 100%;
+    height: 734px;
 }
-.bt5:hover{
-    background-color: #000000;
+
+
+.box_branch{
+    text-align: center;
+    border: solid 5px #81256c;
+    border-radius: 30px;
+    margin: 10px;
+}
+.space{
+    padding: 20px;
 }
 .titre_branch h2{
     color: #141012;
@@ -72,15 +66,6 @@ body {
     text-align:center;
 }
 
-.box_branch{
-    text-align: center;
-    border: solid 5px #81256c;
-    border-radius: 30px;
-    margin: 10px;
-}
-.space{
-    padding: 20px;
-}
 
 
 .carts {
@@ -101,4 +86,18 @@ body {
     border-radius: 50px 0 50px 0;
 }
 
-
+.bt5{
+    width: 200px;
+    font-size: 17px;
+    padding: 20px 0px;
+    background-color: #81256c;
+    color: #fff;
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+.bt5:hover{
+    background-color: #000000;
+}

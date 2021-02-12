@@ -34,12 +34,7 @@ width: 100%;
     color: #141012;
     font-size: 17px;
     line-height:49px;
-
 }
-
-
-
-
 
 .btn{
     width: 100%;
@@ -48,6 +43,14 @@ width: 100%;
     text-align: center;
 }
 
+.evnt{
+display: flex;
+flex-wrap: wrap;
+margin-left: 91px;
+margin-top: 30px;
+border: solid 1px#707070;
+width: 80%;
+}
 
 .box_evnt{
     width: 90%;
@@ -55,9 +58,45 @@ width: 100%;
     margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-   
+    justify-content: space-between;  
 }
+
+
+ .event_lib{
+    width: 600px;
+ }
+   
+.event_lib img{
+    width: 100%;
+    height: 400px;
+}
+.event_description{
+    width: 500px;
+    margin-left:8px ;
+    
+}
+.event_description  h1{
+    font-size: 40px;
+    color: #B32137;
+    margin-left:8px ;
+}
+
+.event_description h2{
+    font-size: 40px;
+    color: #141012;
+    margin-top: 1px;
+    margin-left:8px ;
+}
+
+
+.event_description p{
+    color: #141012;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left:8px ;
+}
+
+
 .bt,.bt2 ,.bt3,.bt4{
     width: 200px;
     font-size: 17px;
@@ -91,47 +130,6 @@ width: 100%;
 }
 
 
-
-.event_lib img{
-    width: 100%;
-    height: 400px;
-}
- .event_lib{
-    width: 600px;
- }
-   
-
-.evnt{
-display: flex;
-flex-wrap: wrap;
-margin-left: 91px;
-margin-top: 30px;
-border: solid 1px#707070;
-width: 80%;
-
-
-}
-.event_description{
-    width: 500px;
-    
-}
-.event_description , h1{
-    font-size: 40px;
-    color: #B32137;
-    margin-left:8px ;
-}
-.event_description ,p{
-    color: #141012;
-    font-size: 17px;
-    margin-top: 10px;
-    margin-left:8px ;
-}
-.event_description ,h2{
-    font-size: 40px;
-    color: #141012;
-    margin-top: 1px;
-    margin-left:8px ;
-}
 
 
  
