@@ -43,94 +43,80 @@ width: 100%;
     text-align: center;
 }
 
-.evnt{
-display: flex;
-flex-wrap: wrap;
-margin-left: 12%;
-margin-top: 30px;
-border: solid 1px#707070;
-width: 80%;
+body {
+    font-family: 'poppins', sans-serif;
+    font-weight: normal;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    
 }
-
-.box_evnt{
-    width: 90%;
-    margin: 2% auto 0;
-    margin-bottom: 50px;
+.ALL{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;  
+    flex-direction: column;
+    gap: 199px;
+    padding: 7%;
 }
 
-
- .event_lib{
-    width: 600px;
- }
-   
-.event_lib img{
-    width: 100%;
+.events{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.events img {
+    width: 650px;
     height: 400px;
 }
-.event_description{
-    width: 500px;
-    margin-left:8px ;
-    
-}
-.event_description  h1{
-    font-size: 40px;
-    color: #B32137;
-    margin-left:8px ;
-}
-
-.event_description h2{
-    font-size: 40px;
-    color: #141012;
-    margin-top: 1px;
-    margin-left:8px ;
-}
-
-
-.event_description p{
-    color: #141012;
-    font-size: 17px;
-    margin-top: 10px;
-    margin-left:8px ;
-}
-
-
-.bt,.bt2 ,.bt3,.bt4{
-    width: 200px;
-    font-size: 17px;
-    padding: 20px 0px;
-    background-color: #81256c;
-    color: #fff;
-    display: inline-block;
-    line-height: 20px;
-    border-radius: 30px;
+.events .eventDiscription{
+    background-color: #b32137;
+    width: 650px;
+    height: 400px;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    
-
-}
-.bt4:hover{
-    background-color: #000000;
-}
-.bt3:hover{
-    background-color: #000000;
-}
-.bt2:hover{
-    background-color: #000000;
-}
-.bt:hover{
-    background-color: #000000;
-}
-.btn2,.btn3 , .btn4{
-  
-    margin-right: 27px;
 }
 
+.events .eventDiscription .descriptionHeader{
+    margin-top: 15%;
+    color: whitesmoke;
+}
+.events .eventDiscription .descriptionPar{
+    margin-top: 3%;
+    color: whitesmoke;
+}
 
+@media screen and (max-width:1300px){
+    .ALL{
+      
+        align-items: center;
+    }
+    .events{
+     
+        flex-direction: column;
+        
+    }
+}
 
+@media screen and (max-width:750px){
+    .events img {
+        width: 453px;
+    height: 349px;
+    }
+    .events .eventDiscription{
+       
+        width: 453px;
+        height: 349px;
+    }
 
- 
-    
+}
+
+@media screen and (max-width:400px){
+    .events img {
+        width: 258px;
+    height: 349px;
+    }
+    .events .eventDiscription{
+       
+        width: 258px;
+        height: 349px;
+    }
+
+}
